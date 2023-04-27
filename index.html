@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Алгоритм поиска пути A*</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="map"></div>
+<div id="controls">
+  <h1> Алгоритм поиска пути A* </h1>
+  <button id="startBtn">Найти путь</button>
+  <button id="resetBtn">Сбросить</button>
+  <button id="create-btn">Создать матрицу</button>
+  <label>Эвристика:</label>
+  <select id="heuristicSelect">
+    <option value="manhattan">Манхэттен</option>
+    <option value="euclidean">Евклидово расстояние</option>
+    <option value="chebyshev">Расстояние Чебышева</option>
+  </select>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
