@@ -1,0 +1,46 @@
+#map {
+    width: 450px;
+    height: 515px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+#controls {
+    margin: 16px;
+    text-align: center;
+}
+button {
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+select {
+    margin: 20px;
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#map .cell {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid black;
+}
+#map .cell.start {
+    background-color: green;
+}
+#map .cell.end {
+    background-color: red;
+}
+#map .cell.blocked {
+    background-color: black;
+}
+#map .cell.open {
+    background-color: yellow;
+}
+#map .cell.closed {
+    background-color: orange;
+}
+#map .cell.path {
+    background-color: blue;
+}
